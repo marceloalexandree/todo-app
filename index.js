@@ -7,7 +7,7 @@ app.engine('handlebars', exphbs.engine())
 app.set('view engine', 'handlebars')
 
 app.get('/', (requisicao, resposta)=>{
-    resposta.send("Funcionando")
+    resposta.render('home')
 })
 
 app.listen(3000, ()=>{
