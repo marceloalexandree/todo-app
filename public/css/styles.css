@@ -11,4 +11,18 @@
 
 header{
     background-image: var(--bg-header-mobile);
+    height: 12.5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    padding: 3rem 1.75rem 0;
+}
+
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 2.5rem;
 }
